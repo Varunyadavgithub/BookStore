@@ -141,7 +141,7 @@ const Navbar = () => {
             </div>
 
             <div className="">
-              <a className="bg-blue-500 text-white px-2 py-1 rounded-md hover:bg-slate-800 duration-300 cursor-pointer" onClick={()=>document.getElementById('my_modal_2').showModal()}>
+              <a className="bg-blue-500 text-white px-2 py-1 rounded-md hover:bg-slate-800 duration-300 cursor-pointer" onClick={()=>document.getElementById('my_modal_3').showModal()}>
                 Login
               </a>
               <Login/>
