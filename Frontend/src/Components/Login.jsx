@@ -55,10 +55,10 @@ const Login = () => {
             </div>
             {/* Button */}
             <div className="flex justify-around mt-4">
-              <button className="bg-blue-500 text-white rounded-md px-3 py-1 hover:bg-blue-700 duration-200">
+              <button className="bg-blue-500 text-white rounded-md px-2 py-1 md:px-3 md:py-1 hover:bg-blue-700 duration-200">
                 Login
               </button>
-              <p className="text-xl">
+              <p className="text-sm md:text-xl">
                 Not registered?{" "}
                 <Link
                   to="/signup"

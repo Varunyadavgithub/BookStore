@@ -15,7 +15,7 @@ const Signup = () => {
   return (
     <>
       <div className="flex h-screen items-center justify-center">
-        <div className="w-[500px]">
+        <div className="w-[500px] flex items-center justify-center">
           <div className="modal-box border">
             <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               {/* if there is a button in form, it will close the modal */}
@@ -68,10 +68,10 @@ const Signup = () => {
               </div>
               {/* Button */}
               <div className="flex justify-around mt-4">
-                <button className="bg-blue-500 text-white rounded-md px-3 py-1 hover:bg-blue-700 duration-200">
+                <button className="bg-blue-500 text-white rounded-md px-2 py-1 md:px-3 md:py-1 hover:bg-blue-700 duration-200">
                   Signup
                 </button>
-                <p className="text-xl">
+                <p className="text-sm md:text-xl">
                   Have Account?{" "}
                   <button
                     className="underline text-blue-500 cursor-pointer"
