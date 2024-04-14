@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,10 +8,10 @@ const Footer = () => {
         <hr />
         <footer className="footer footer-center p-10 text-base-content rounded">
           <nav className="grid grid-flow-col gap-4">
-            <a className="link link-hover">Home</a>
-            <a className="link link-hover">Cources</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">About Us</a>
+            <Link to={"/"} className="text-sm md:text-xl hover:scale-105 cursor-pointer hover:underline hover:text-sky-700">Home</Link>
+            <Link to={"/course"} className="text-sm md:text-xl hover:scale-105 cursor-pointer hover:underline hover:text-sky-700">Course</Link>
+            <Link to={"/contact"} className="text-sm md:text-xl hover:scale-105 cursor-pointer hover:underline hover:text-sky-700">Contact</Link>
+            <Link to={"/about"} className="text-sm md:text-xl hover:scale-105 cursor-pointer hover:underline hover:text-sky-700">About Us</Link>
           </nav>
           <nav>
             <div className="grid grid-flow-col gap-4">
@@ -50,7 +51,7 @@ const Footer = () => {
             </div>
           </nav>
           <aside>
-            <p>Copyright © 2024 - All right reserved by BookStore</p>
+            <p>Copyright © 2024 - All right reserved by Varun yadav</p>
           </aside>
         </footer>
       </div>

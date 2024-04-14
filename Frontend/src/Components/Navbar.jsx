@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login";
+import { useAuth } from "../Context/AuthProvider";
+import Logout from "./Logout";
 
 const Navbar = () => {
+
+  const [authUser,setAuthUser]=useAuth();
+
   const [theme,setTheme]=useState(localStorage.getItem('theme')?localStorage.getItem('theme'):'light');
   const handleToggle=(e)=>{
     if(e.target.checked){
@@ -140,12 +145,14 @@ const Navbar = () => {
               </label>
             </div>
 
-            <div className="">
+            {
+              authUser?<Logout/>:<div className="">
               <a className="bg-blue-500 text-white px-2 py-1 rounded-md hover:bg-slate-800 duration-300 cursor-pointer" onClick={()=>document.getElementById('my_modal_3').showModal()}>
                 Login
               </a>
               <Login/>
             </div>
+            }
           </div>
         </div>
       </div>

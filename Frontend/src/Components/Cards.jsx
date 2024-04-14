@@ -4,8 +4,8 @@ const Cards = ({item}) => {
   // console.log(item);
   return (
     <>
-      <div className="mt-4 my-4 p-3">
-        <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 dueration-200 border">
+      <div className="my-4 p-3">
+        <div className="card p-3 w-92 bg-base-100 shadow-xl hover:scale-105 dueration-200 border">
           <figure>
             <img
               src={item.img}
