@@ -1,12 +1,13 @@
 # BookStore
 
-BookStore is a MERN (MongoDB, Express.js, React.js, Node.js) stack project where users can explore free category books and access paid category books upon signing up. 
+BookStore is a MERN (MongoDB, Express.js, React.js, Node.js) stack project where users can explore free category books and access paid category books upon signing up. It also includes light and dark mode features for a personalized reading experience.
 
 ## Features
 
 - **Free Category Books**: Users can explore free category books without signing up.
 - **Paid Category Books**: Users can access paid category books after signing up with their name, email, and password.
-- **User Authentication**: Secure user authentication system implemented for accessing paid category books.
+- **Light and Dark Mode**: Users can toggle between light and dark mode for a personalized reading experience.
+- **User Authentication**: Users can log in to access their account and stay logged in using local storage.
 - **Responsive Design**: The application is designed to be responsive across various devices.
 
 ## Technologies Used
@@ -14,7 +15,6 @@ BookStore is a MERN (MongoDB, Express.js, React.js, Node.js) stack project where
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
 
 ## Installation
 
@@ -46,8 +46,10 @@ npm start
 
 1. Visit the application in your web browser.
 2. Explore the free category books on the home page.
-3. Sign up to access the paid category books.
-4. Enjoy reading your favorite books!
+3. Enjoy the light or dark mode feature for a personalized reading experience.
+4. Sign up (optional) to access the paid category books.
+5. Log in to your account to access paid category books and stay logged in using local storage.
+6. Continue exploring and reading your favorite books!
 
 ## Contributing
 
@@ -58,3 +60,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request.
+   
