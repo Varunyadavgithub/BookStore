@@ -1,8 +1,8 @@
-# BookStore
+# BookStore 📚
 
 BookStore is a MERN (MongoDB, Express.js, React.js, Node.js) stack project where users can explore free category books and access paid category books upon signing up. It also includes light and dark mode features for a personalized reading experience.
 
-## Features
+## Features 💁
 
 - **Free Category Books**: Users can explore free category books without signing up.
 - **Paid Category Books**: Users can access paid category books after signing up with their name, email, and password.
@@ -10,7 +10,7 @@ BookStore is a MERN (MongoDB, Express.js, React.js, Node.js) stack project where
 - **User Authentication**: Users can log in to access their account and stay logged in using local storage.
 - **Responsive Design**: The application is designed to be responsive across various devices.
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
@@ -42,7 +42,7 @@ npm install
 npm start
 ```
 
-## Usage
+## Usage 
 
 1. Visit the application in your web browser.
 2. Explore the free category books on the home page.
@@ -51,7 +51,7 @@ npm start
 5. Log in to your account to access paid category books and stay logged in using local storage.
 6. Continue exploring and reading your favorite books!
 
-## Contributing
+## Contributing 🧑‍💻
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
