@@ -2,6 +2,10 @@
 
 BookStore is a MERN (MongoDB, Express.js, React.js, Node.js) stack project where users can explore free category books and access paid category books upon signing up. It also includes light and dark mode features for a personalized reading experience.
 
+# Screenshort 📸
+![Screenshot 2024-04-15 085108](https://github.com/Varunyadavgithub/BookStore-App/assets/134674472/5f39dd6e-b36f-42c3-a549-3d72cb84f969)
+
+
 ## Features 💁
 
 - **Free Category Books**: Users can explore free category books without signing up.
