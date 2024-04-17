@@ -28,6 +28,9 @@ const Signup = () => {
       console.log(res.data)
       if(res.data){
         toast.success('Signup successfully');
+        setTimeout(()=>{
+          window.location.reload()
+        },1000)
         navigate(from,{replace:true});
       }
       localStorage.setItem("Users",JSON.stringify(res.data.user));
